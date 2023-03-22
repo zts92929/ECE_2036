@@ -1,0 +1,109 @@
+
+Print Array of Complex Numbers in Polar Format
+5 < 0.927295
+3.16228 < 1.89255
+9.90665 < -1.69528
+98.3501 < -1.53886
+3.15217 < 0.536067
+
+Testing add operator a[0] + a[1]
+2 + 7j
+
+Testing subtract operator a[1] - a[2]
+0.23 + 12.83j
+
+Testing multiply operator a[2] * a[3]
+-970.151 + 90.0428j
+-970.151 + 90.0428j
+
+Testing divide operator a[3] / a[4]
+-15.0715 + -27.3191j
+
+Testing divide by zero a[4] / (0)
+NaN
+
+Now display the results array in polar format
+7.28011 < 1.2925
+12.8321 < 1.55287
+974.321 < 3.04904
+31.2007 < -2.07493
+NaN
+A Matrix
+0     1     2     
+3     4     5     
+6     7     8     
+
+B transpose
+0     3     6     
+1     4     7     
+2     5     8     
+
+
+The C matrix 
+1 + 1j     0     0     0     
+0     4 + 2j     0     0     
+0     0     1 + 1j     0     
+0     0     0     0 + 1j     
+
+D Matrix
+9 + 9j     10 + 10j     11 + 11j     
+12 + 12j     13 + 13j     14 + 14j     
+
+The A = B*B matrix is 
+15     42     69     
+18     54     90     
+21     66     111     
+
+
+The transpose of A is then
+15     18     21     
+42     54     66     
+69     90     111     
+
+The matrix A is still the following
+15     42     69     
+18     54     90     
+21     66     111     
+
+The B = B+B matrix is 
+0     6     12     
+2     8     14     
+4     10     16     
+
+The B = (6+7j)*B gives B as 
+0     36 + 42j     72 + 84j     
+12 + 14j     48 + 56j     84 + 98j     
+24 + 28j     60 + 70j     96 + 112j     
+
+The B = B*(7+7j) gives B as 
+0     -42 + 546j     -84 + 1092j     
+-14 + 182j     -56 + 728j     -98 + 1274j     
+-28 + 364j     -70 + 910j     -112 + 1456j     
+
+The conjugate transpose of B is 
+0     -14 + -182j     -28 + -364j     
+-42 + -546j     -56 + -728j     -70 + -910j     
+-84 + -1092j     -98 + -1274j     -112 + -1456j     
+
+The A = A-A matrix is 
+0     0     0     0     
+0     0     0     0     
+0     0     0     0     
+0     0     0     0     
+
+Multiply with rectanglur matrix D: E=D*B
+16128 + -18816j     21168 + -24696j     26208 + -30576j     
+20664 + -24108j     27216 + -31752j     33768 + -39396j     
+
+Try multiplying mismatched matrices
+Matrix Mismatch Error!
+This matrix has zero elements
+
+Try adding mismatched matrices
+Matrix Mismatch Error!
+This matrix has zero elements
+
+Try subtracting mismatched matrices
+Matrix Mismatch Error!
+This matrix has zero elements
+
